@@ -28,7 +28,6 @@ class InspectionData(BaseModel):
     bogieDetails: BogieDetails
     formNumber: str
     submittedBy: str
-    submittedDate: date
 
 
 class WheelFields(BaseModel):
@@ -52,7 +51,6 @@ class WheelInspectionForm(BaseModel):
     fields: WheelFields
     formNumber: str
     submittedBy: str
-    submittedDate: date
 
 class Users(BaseModel):
     created_At:datetime
