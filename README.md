@@ -44,15 +44,15 @@ requirements.txt # Python dependencies
 - `POST /api/forms/bogie-checksheet/`  
   → Validates and stores form data after flattening nested fields.
 
-- `GET /api/forms/bogie-checksheet/{id}`  
+- `GET /api/forms/bogie-checksheet/{formNumber}/{submittedBy}/{submittedDate}`  
   → Retrieves a form entry using its unique identifier.
 
 ### 🔧 2. Axle Wheel Form
 
-- `POST /api/forms/axle-wheel/`  
+- `POST /api/forms/wheel-specification/`  
   → Accepts and stores validated axle-wheel form data.
 
-- `GET /api/forms/axle-wheel/{id}`  
+- `GET /api/forms/wheel-specification/{formNumber}/{submittedBy}/{submittedDate}`  
   → Returns the axle-wheel form entry by its ID.
 
 ---
